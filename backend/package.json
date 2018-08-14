@@ -1,0 +1,28 @@
+{
+  "name": "nearsoft-front-end-pair-programming",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "gulp",
+    "start": "./lib/index.js",
+    "test": "nyc mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "is-plain-obj": "^1.1.0",
+    "pretty-error": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-zip": "^3.2.0",
+    "mocha": "^2.4.5",
+    "nyc": "^6.4.4",
+    "supertest": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}
